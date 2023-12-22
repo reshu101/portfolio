@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>R</span>eshma</h1>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">AboutUs</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">ContactUs</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer/Java Full Stack Developer</p>
+                <h1>Hello, I Am <span>Reshma</span> <br>From Madhya Pradesh</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------------about section------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="bg3.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Pursued Masters in computer applications,
+                        willing to be placed in a company where I can
+                        use my technical skills and leadership qualities
+                        to the upliftment of company and personal
+                        growth.</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('qualification')">Qualification</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML/CSS/JavaScript</span><br> With HTML you can create your own Website. HTML is easy to learn<br>
+                                    CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.<br>
+                                    JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more.</li>
+                                <li><span>Bootstrap</span> <br>the world's most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.</li>
+                                <li><span>JAVA</span><br> Java is a popular programming language, created in 1995. It is owned by Oracle, and more than 3 billion devices run Java</li>
+                                <li><span>SQL</span><br>SQL is, fundamentally, a programming language designed for accessing, modifying and extracting information from relational databases.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="experience">
+                            <ul>
+                                <li><span>June-2023 To Present</span><br>Full Stack Developer Training At Besant
+                                    Technology,HSR
+                                    Layout,Bangalore<br>
+                                    I have created my resume using HTML and CSS<br>
+                                    I have also created my portfolio using HTML, Javascript and Bootstrap.
+                                </li>
+                                <li><span>2018</span> <br>Intership At Kangaroo Software PVT. LTD , Indore<br>
+                                    During internship, I had created a project whose entire database was created by me using SQL.</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="qualification">
+                            <ul>
+                                <li><span>2015-2018</span><br>MCA From Shri Govindram Seksaria
+                                    Institute of Technology and
+                                    Science,Indore,M.P</li>
+                                <li><span>2012-2015</span> <br>BSC(IT) From A.K.S University, Satna, M.P</li>
+                                <li><span>2012</span><br>12th From Govt. Girls Higher
+                                    Secondary School</li>
+                                <li><span>2010</span><br>10th From Govt.High School, Satna, M.P</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------------------------------- services----------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services_list">
+            <div>
+                
+                <i class="fas fa-code"></i>
+                <h2>Web Desigh</h2>
+                <p>Web design is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience. Appearance and design are incorporated as vital elements whether you're designing a website, mobile app or maintaining content on a web page.</p>
+                <a href="#">Lern More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>APP Desigh</h2>
+                <p>App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app's flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback.</p>
+                <a href="#">Lern More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>DataBase Desigh</h2>
+                <p>Database design is a collection of steps that help create, implement, and maintain a business's data management systems. The primary purpose of designing a database is to produce physical and logical models of designs for the proposed database system.
+                </p>
+                <a href="#">Lern More</a>
+            </div>
+           
+        </div>
+    </div>
+</div>
+<!--------------------------------portfolio section--------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work_list">
+            <div class="work">
+                <img src="work.jpg" alt="">
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>Social media is always evolving to satisfy the needs and interests of its users. New social media platforms emerge to serve specific audiences or to offer something different.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work1.png" alt="">
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>Social media is always evolving to satisfy the needs and interests of its users. New social media platforms emerge to serve specific audiences or to offer something different.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.png" alt="">
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>Social media is always evolving to satisfy the needs and interests of its users. New social media platforms emerge to serve specific audiences or to offer something different.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- ==========contact section =============-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>reshmasingh018@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>09876789087</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="ReshmaSingh_MCA_2018_JavaFullStackDeveloper.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text"name="Name" placeholder="Your Name" required >
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Type Message Here..."></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- ====================footer section ============== -->
+    <div class="copyright">
+        <p>Copyright &copy reshma.Made with by  <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+ 
+
+    <script>
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+           event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+
+</html>
